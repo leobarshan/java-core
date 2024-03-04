@@ -8,7 +8,7 @@ public class D02P10 {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the number: ");
 		int n=sc.nextInt();
-		int res=0;
+		int res=0; //to store
 		while(n>0)
 		{
 			int b=n%10; //to take the last digit
